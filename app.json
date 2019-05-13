@@ -1,0 +1,19 @@
+{
+  "name": "rent-a-road-test-3250",
+  "description": "A blueprint for React Native apps using Expo. This django application was built with Crowdbotics www.crowdbotics.com",
+  "repository": "https://github.com/crowdbotics-apps/rent-a-road-test-3250",
+  "keywords": [
+    "mobile_app",
+    "react_native_expo"
+  ],
+  "env": {
+    "DEBUG_COLLECTSTATIC": "1"
+  },
+  "addons": [
+    "heroku-postgresql:hobby-dev",
+    "sendgrid:starter"
+  ],
+  "scripts": {
+    "postdeploy": "./backend/postdeploy.sh"
+  }
+}
